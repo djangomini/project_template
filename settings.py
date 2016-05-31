@@ -92,4 +92,4 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_URL = '/static/'
 
 # override some settings from local settings
-from .local_settings import *
+from local_settings import *
