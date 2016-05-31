@@ -8,7 +8,7 @@ Stay tuned. We will publich updates soon.
 
 ### Quick Start
 
-```
+```sh
 # clone your project repository
 git clone git@github.com:...
 
