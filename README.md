@@ -9,16 +9,22 @@ Stay tuned. We will publich updates soon.
 ### Quick Start
 
 ```sh
-# clone your project repository
+# Clone your project repository.
 git clone git@github.com:...
+# Or create new project configure it with your new git repository.
+mkdir myproject && cd myproject && git init
+git remote add origin git@github.com:...
 
-# add djangomini template for your project
+# Add djangomini template for your project.
 # it allows to update project template files later
 git remote add djangomini git@github.com:djangomini/new_project.git
 git remote set-url djangomini --push "You can't push to djangomini"
 
-# get initial project structure
+# Get initial project structure.
 git remote update
 git fetch --all
 git pull djangomini master
+
+# When you make changes and need to push code to your repository.
+git push -u origin master
 ```
