@@ -1,4 +1,4 @@
-# Django(mini) - Template for new project
+# Template for a new project build on Django(mini)
 
 When you start work on new project that based on **Django(mini)** - please add this repostory as one of parent repositories for your project. It will help you to fetch new updates from this repository to keep your project **up-to-date** at any time.
 
@@ -17,13 +17,13 @@ git remote add origin git@github.com:...
 
 # Add djangomini template for your project.
 # it allows to update project template files later
-git remote add djangomini git@github.com:djangomini/new_project.git
-git remote set-url djangomini --push "You can't push to djangomini"
+git remote add project_template git@github.com:djangomini/project_template.git
+git remote set-url project_template --push "You can't push to djangomini"
 
 # Get initial project structure.
 git remote update
 git fetch --all
-git pull djangomini master
+git pull project_template master
 
 # When you make changes and need to push code to your repository.
 git push -u origin master
